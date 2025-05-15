@@ -15,8 +15,12 @@ import pytz
 import asyncio
 from telegram.ext import Updater, CallbackContext
 from functools import wraps
+import matplotlib
+matplotlib.use('Agg')  # Use non-GUI backend
+
+import matplotlib.pyplot as plt
 # --- Configuration ---
-# Rate limit decorator
+
 load_dotenv("goldkingcoinersbot2.env")
 TOKEN = os.getenv("BOT_TOKEN")
 TRADE_FEE = 0.001  # 0.05%
@@ -30,7 +34,7 @@ MIN_TRADE_AMOUNT = 1.0  # minimum USD value for any trade
 # --- Data Management ---
 DATA_FILE = 'bot5_data.json'
 ORDERS = []
-
+# Rate limit decorator
 def rate_limit_decorator(func):
     @wraps(func)
     async def wrapper(update: Update, context: ContextTypes.DEFAULT_TYPE, *args, **kwargs):
@@ -535,9 +539,7 @@ async def handle_trade_callback(update: Update, context: ContextTypes.DEFAULT_TY
     except Exception as e:
         logger.error(f"Trade button error: {e}")
         await query.edit_message_text("❌ An error occurred.")
-
-            
-# --- Main Bot Setup ---
+        
 # --- Main Bot Setup ---
 def main():
     application = ApplicationBuilder().token(TOKEN).build()
