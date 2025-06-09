@@ -1,4 +1,4 @@
-# 🐵 Goldkingcoiner's Bot - Built by a Bitcoin trading fan!
+# 🐵 Goldkingcoiner's BTC Paper-Trading Bot for Telegram - Built by a Bitcoin trading fan!
 
 This is a playful Bitcoin trading simulation bot for Telegram, built using Python. It lets users practice trading BTC with virtual funds in a competitive leaderboard setting.
 
