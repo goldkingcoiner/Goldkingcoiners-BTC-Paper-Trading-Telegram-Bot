@@ -1,1 +1,1 @@
-{"users": {}, "price_data": {"last_price": null, "last_price_time": 0}}
+{"users": {}, "winner_id": null, "winner_announced": false, "price_data": {"last_price": null, "last_price_time": 0}, "limit_orders": {}}
