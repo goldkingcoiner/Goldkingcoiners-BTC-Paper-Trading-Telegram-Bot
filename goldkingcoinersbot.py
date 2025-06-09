@@ -1099,7 +1099,7 @@ async def claimprize(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     application = ApplicationBuilder().token(TOKEN).build()
 
-    # Register all handlers BEFORE polling starts
+   
     application.add_handler(CommandHandler("news", news))
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
@@ -1131,7 +1131,7 @@ def main():
         first=10.0      # Start after 10 seconds
     )
     
-    # 🐵 Start polling
+   
     application.run_polling()
 
 if __name__ == "__main__":
