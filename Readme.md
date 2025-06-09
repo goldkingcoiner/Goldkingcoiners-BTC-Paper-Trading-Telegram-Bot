@@ -2,6 +2,12 @@
 
 This is a playful Bitcoin trading simulation bot for Telegram, built using Python. It lets users practice trading BTC with virtual funds in a competitive leaderboard setting.
 
+🛡 Disclaimer
+This bot is for entertainment and educational use only. It does not involve real financial transactions.
+
+📢 Channel
+Join the contest announcements channel: https://t.me/Goldkingcoinerscontests
+
 ## 🚀 Features
 
 - 📈 Simulated BTC trading (buy/sell at market and with limit/stop orders)
@@ -40,10 +46,3 @@ Install dependencies via pip:
 
 ```bash
 pip install -r requirements.txt
-
-
-🛡 Disclaimer
-This bot is for entertainment and educational use only. It does not involve real financial transactions.
-
-📢 Channel
-Join the contest announcements channel: https://t.me/Goldkingcoinerscontests
