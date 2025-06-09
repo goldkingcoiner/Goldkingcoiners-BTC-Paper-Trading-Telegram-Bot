@@ -7,7 +7,12 @@ This bot is for entertainment and educational use only. It does not involve real
 
 📢 Channel
 Join the contest announcements channel: https://t.me/Goldkingcoinerscontests
+
+
                                          ![Example Image;](https://talkimg.com/images/2025/05/17/Ua2ewm.png))
+
+
+                                         
 ## 🚀 Features
 
 - 📈 Simulated BTC trading (buy/sell at market and with limit/stop orders)
